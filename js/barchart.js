@@ -198,7 +198,7 @@ const mouseover2 = function(event, d) {
 // Moves the tooltip with the mouse as it moves
 const mousemove2 = function(event, d) {
   tooltip2.style("left", (event.x)+"px") 
-          .style("top", (event.y + 150 + yTooltipOffset) +"px"); 
+          .style("top", (event.y + 75 + yTooltipOffset) +"px"); 
 }
 
 // Makes tooltip invisible when mouse leaves bar again
