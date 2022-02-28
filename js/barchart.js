@@ -89,8 +89,8 @@ const mouseover1 = function(event, d) {
 
 // Moves the tooltip with the mouse as it moves
 const mousemove1 = function(event, d) {
-  tooltip1.style("left", (event.x)+"px") 
-          .style("top", (event.y + yTooltipOffset) +"px"); 
+  tooltip1.style("left", (event.pageX)+"px") 
+          .style("top", (event.pageY + yTooltipOffset) +"px"); 
 }
 
 // Makes tooltip invisible when mouse leaves bar again
@@ -197,8 +197,8 @@ const mouseover2 = function(event, d) {
 
 // Moves the tooltip with the mouse as it moves
 const mousemove2 = function(event, d) {
-  tooltip2.style("left", (event.x)+"px") 
-          .style("top", (event.y + 75 + yTooltipOffset) +"px"); 
+  tooltip2.style("left", (event.pageX)+"px") 
+          .style("top", (event.pageY + yTooltipOffset) +"px"); 
 }
 
 // Makes tooltip invisible when mouse leaves bar again
