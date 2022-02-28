@@ -49,8 +49,7 @@ svg3.append("g")
 // Adding X axis
 svg3.append("g")
     .attr("transform", `translate(0,${height - margin.bottom})`) 
-    .call(d3.axisBottom(xScale3) 
-            .tickFormat(i => data[i].name))  
+    .call(d3.axisBottom(xScale3))  
     .attr("font-size", '20px');
 
 }
